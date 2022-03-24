@@ -34,38 +34,38 @@ $(function () {
     $(this).find("img").stop().animate({ "margin-top": "0" }, 1500);
   });
 
-  // Higashino scroll event
-  $(".Higashino_info .screen_img").animate({ "margin-top": "-1612" }, 8000, function () {
-    $(".Higashino_info .screen_img").animate({ "margin-top": "0" }, 4000);
+  // WWF scroll event
+  $(".WWF_info .screen_img").animate({ "margin-top": "-1612" }, 8000, function () {
+    $(".WWF_info .screen_img").animate({ "margin-top": "0" }, 4000);
   });
 
-  setInterval(Higashino_screen, 13500);
+  setInterval(WWF_screen, 13500);
 
-  function Higashino_screen() {
-    $(".Higashino_info .screen_img").animate({ "margin-top": "-1612" }, 8000, function () {
-      $(".Higashino_info .screen_img").animate({ "margin-top": "0" }, 4000);
+  function WWF_screen() {
+    $(".WWF_info .screen_img").animate({ "margin-top": "-1612" }, 8000, function () {
+      $(".WWF_info .screen_img").animate({ "margin-top": "0" }, 4000);
     });
   }
 
-  // Higashino scroll event (mobile)
-  $(".Higashino_info .M_img").mouseenter(function () {
-    $(this).find("img").stop().animate({ "margin-top": "-1800" }, 8000);
+  // WWF scroll event (mobile)
+  $(".WWF_info .M_img").mouseenter(function () {
+    $(this).find("img").stop().animate({ "margin-top": "-4460" }, 12000);
   });
 
-  $(".Higashino_info .M_img").mouseleave(function () {
+  $(".WWF_info .M_img").mouseleave(function () {
     $(this).find("img").stop().animate({ "margin-top": "0" }, 1500);
   });
 
-  // CHANEL scroll event
-  $(".CHANEL_info .screen_img").animate({ "margin-top": "-2130" }, 8000, function () {
-    $(".CHANEL_info .screen_img").animate({ "margin-top": "0" }, 4000);
+  // Adidas scroll event
+  $(".Adidas_info .screen_img").animate({ "margin-top": "-2130" }, 8000, function () {
+    $(".Adidas_info .screen_img").animate({ "margin-top": "0" }, 4000);
   });
 
-  setInterval(CHANEL_screen, 13500);
+  setInterval(Adidas_screen, 13500);
 
-  function CHANEL_screen() {
-    $(".CHANEL_info .screen_img").animate({ "margin-top": "-2130" }, 8000, function () {
-      $(".CHANEL_info .screen_img").animate({ "margin-top": "0" }, 4000);
+  function Adidas_screen() {
+    $(".Adidas_info .screen_img").animate({ "margin-top": "-2130" }, 8000, function () {
+      $(".Adidas_info .screen_img").animate({ "margin-top": "0" }, 4000);
     });
   }
 

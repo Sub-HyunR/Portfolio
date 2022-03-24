@@ -442,61 +442,61 @@ html, body {
   border-left: 5px solid #367df3;
 }
 
-.Higashino_info .info_main {
+.WWF_info .info_main {
   background: #dcd5cd;
 }
 
-.Higashino_info .M_img {
+.WWF_info .M_img {
   border: #888 solid 1px;
 }
 
-.Higashino_info .screen_img {
+.WWF_info .screen_img {
   height: 2212px;
   padding: 0;
   overflow: hidden;
 }
 
-.Higashino_info .screen_img li {
+.WWF_info .screen_img li {
   height: 100%;
 }
 
-.Higashino_info .screen_img img {
+.WWF_info .screen_img img {
   width: 100%;
   height: 100%;
 }
 
-.Higashino_info .info_sub h1 {
+.WWF_info .info_sub h1 {
   color: #aaa;
 }
 
-.Higashino_info .info_sub .band {
+.WWF_info .info_sub .band {
   border-left: 5px solid #aaa;
 }
 
-.CHANEL_info .info_main {
+.Adidas_info .info_main {
   background: #444;
 }
 
-.CHANEL_info .screen_img {
+.Adidas_info .screen_img {
   height: 2730px;
   padding: 0;
   overflow: hidden;
 }
 
-.CHANEL_info .screen_img li {
+.Adidas_info .screen_img li {
   height: 100%;
 }
 
-.CHANEL_info .screen_img li img {
+.Adidas_info .screen_img li img {
   width: 100%;
   height: 100%;
 }
 
-.CHANEL_info .info_sub h1 {
+.Adidas_info .info_sub h1 {
   color: maroon;
 }
 
-.CHANEL_info .info_sub .band {
+.Adidas_info .info_sub .band {
   border-left: 5px solid maroon;
 }
 
